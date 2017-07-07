@@ -1,13 +1,21 @@
 .clearfix:before,
 .clearfix:after {
-    /*content: " " /* apparently this lets it work in opera lol */
+    /* ^ apparently these are called pseudo-elements*/
+    content: " "; /* apparently this lets it work in opera lol*/
     display: block;
 }
 
 .clearfix:after {
+    /* the pseudo elements let us use after on its own */
     clear: both;
     /* this clears both left and right floats*/
     /* instead of just left or right */
+    /* now it's cleared because it's being applied AFTER */
+}
+
+.clearfix {
+    *zoom: 1;
+    /* this allows it to work in i6 and i7 lol yes compatibility */
 }
 
 .container {
