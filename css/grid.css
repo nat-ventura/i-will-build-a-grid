@@ -7,6 +7,7 @@
     /* this creates auto flow*/
     /*grid-template-rows: 300px 300px 300px;*/
     /* this creates cute even 9x9 boxes*/
+    /* the new fr things is really cool; it's a fraction of the available space */
     grid-gap: 1rem;
 
     /* this is short hand for both column-gap and row gap to be the same*/
@@ -17,6 +18,11 @@
 
     /* since the template is set to be 3 boxes across */
     /* which means if you shrink it too much it'll break out of the viewport */
+
+    /* oooook so now i've learned that grid is good to know/play around with for the future */
+    /* but flexbox is what i need to be mostly working with right now */
+    /* like a combination of flexbox and float clear */
+    /* this is good to know, i was getting pretty confused */
     
 }
 
