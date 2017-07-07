@@ -9,9 +9,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
 </head>
 <body>
-    <div class="container">
-        <div class="box"></div>
-        <div class="box"></div>
+    <div class="container clearfix">
+        <div class="box left"></div>
+        <div class="box right"></div>
+        <!--now that I've floated them left and right-->
+        <!--the light gray background disappears!!-->
+        <!--where did the container go?-->
+        <!--clearfix says: after this element, CLEAR ALL FLOATS-->
+        <!--makes it so container naturally fit to elements within it that are floated-->
     </div>
 
 </body>
