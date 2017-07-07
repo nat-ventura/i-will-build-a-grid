@@ -1,6 +1,24 @@
 .grid {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    /*grid-template-columns: 1fr 1fr 1fr;*/
+    /* the fr's are fraction units*/
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    /* this creates auto flow*/
+    /*grid-template-rows: 300px 300px 300px;*/
+    /* this creates cute even 9x9 boxes*/
+    grid-gap: 1rem;
+    /* this is short hand for both column-gap and row gap to be the same*/
+    grid-column-grap: 1rem;
+    grid-row-gap: 2rem;
+    background: pink;
+    /* note that gap is INSIDE the grid-- does NOT CREATE SPACE OUTSIDE of the grid element*/
+    /* grid gap does not cover OUTSIDE of the grid*/
+    /* the background color is to illustrate this*/
+
+    /* since the template is set to be 3 boxes across */
+    /* which means if you shrink it too much it'll break out of the viewport */
+    
 }
 
 .box {
