@@ -8,10 +8,9 @@
     /*grid-template-rows: 300px 300px 300px;*/
     /* this creates cute even 9x9 boxes*/
     grid-gap: 1rem;
+
     /* this is short hand for both column-gap and row gap to be the same*/
-    grid-column-grap: 1rem;
-    grid-row-gap: 2rem;
-    background: pink;
+
     /* note that gap is INSIDE the grid-- does NOT CREATE SPACE OUTSIDE of the grid element*/
     /* grid gap does not cover OUTSIDE of the grid*/
     /* the background color is to illustrate this*/
