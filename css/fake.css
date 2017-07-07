@@ -1,0 +1,17 @@
+.container {
+    background: #ccc
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: #222;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
